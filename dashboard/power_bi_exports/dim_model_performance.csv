@@ -1,0 +1,4 @@
+Model_Name,Validation_MAE,Validation_RMSE,Validation_R2,Test_MAE,Test_RMSE,Test_R2,Test_MAPE_pct,Is_Selected_Best
+Naive Baseline,6.557,8.4182,-0.4054,4.4998,6.4155,0.2024,19.2,0
+Linear Regression,4.7978,6.2883,0.2158,3.9607,5.3711,0.4409,18.21,0
+Random Forest,4.5979,6.0823,0.2663,3.8297,5.1623,0.4836,18.13,1

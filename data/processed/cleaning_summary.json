@@ -1,0 +1,18 @@
+{
+    "dataset_name": "UCI Individual Household Electric Power Consumption",
+    "input_file": "data\\raw\\household_power_consumption.txt",
+    "processed_timestamp": "2026-10-27T19:53:41.680602",
+    "total_raw_records": 2075259,
+    "missing_power_records": 25979,
+    "valid_power_records": 2049280,
+    "missing_percentage": 1.2518,
+    "total_calendar_days": 1433,
+    "valid_calendar_days": 1420,
+    "incomplete_calendar_days": 13,
+    "total_energy_kwh": 37283.75,
+    "mean_daily_energy_kwh": 26.18,
+    "max_daily_energy_kwh": 79.56,
+    "min_daily_energy_kwh": 4.17,
+    "date_start": "2006-12-16",
+    "date_end": "2010-11-26"
+}

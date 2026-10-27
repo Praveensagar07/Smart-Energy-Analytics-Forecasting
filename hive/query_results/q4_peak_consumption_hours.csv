@@ -1,0 +1,6 @@
+hour_of_day,avg_hourly_energy_kwh,peak_recorded_hourly_kwh,avg_power_demand_kw
+20,1.899,6.5196,1.8991
+21,1.8744,6.3639,1.8761
+19,1.7318,6.496,1.7334
+7,1.5016,4.4166,1.5024
+8,1.4606,4.4189,1.461

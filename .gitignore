@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Raw and Intermediate Data files (> 100MB blocked by GitHub)
+data/raw/household_power_consumption.txt
+data/raw/*.zip
+data/processed/*.parquet
+data/features/*.parquet
+!data/raw/sample_household_power_consumption.txt
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/features/.gitkeep
+
+# Environment and Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs and databases
+*.log
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and Editor configs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Spark and Hadoop local runtime files
+metastore_db/
+derby.log
+spark-warehouse/
+winutils.exe
+hadoop-*.tar.gz

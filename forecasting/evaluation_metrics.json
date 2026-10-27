@@ -1,0 +1,74 @@
+{
+    "training_configuration": {
+        "dataset_total_samples": 1413,
+        "train_samples": 989,
+        "validation_samples": 211,
+        "test_samples": 213,
+        "split_ratios": "70% Train / 15% Validation / 15% Test",
+        "splitting_method": "Chronological Sequential (No Shuffling)",
+        "target_variable": "Energy_kWh (Next-day household electricity consumption in kWh)",
+        "feature_count": 15,
+        "features_list": [
+            "lag_1_energy_kwh",
+            "lag_2_energy_kwh",
+            "lag_7_energy_kwh",
+            "rolling_mean_7_kwh",
+            "rolling_std_7_kwh",
+            "rolling_mean_14_kwh",
+            "lag_1_avg_power_kw",
+            "lag_1_max_power_kw",
+            "lag_1_avg_voltage_v",
+            "lag_1_sub1_kwh",
+            "lag_1_sub2_kwh",
+            "lag_1_sub3_kwh",
+            "Day_of_week_num",
+            "Is_weekend",
+            "Month"
+        ]
+    },
+    "validation_metrics": {
+        "Naive_Baseline": {
+            "MAE": 6.557,
+            "RMSE": 8.4182,
+            "R2": -0.4054
+        },
+        "Linear_Regression": {
+            "MAE": 4.7978,
+            "RMSE": 6.2883,
+            "R2": 0.2158
+        },
+        "Random_Forest": {
+            "MAE": 4.5979,
+            "RMSE": 6.0823,
+            "R2": 0.2663
+        }
+    },
+    "test_metrics": {
+        "Naive_Baseline": {
+            "MAE": 4.4998,
+            "RMSE": 6.4155,
+            "R2": 0.2024,
+            "MAPE_pct": 19.2
+        },
+        "Linear_Regression": {
+            "MAE": 3.9607,
+            "RMSE": 5.3711,
+            "R2": 0.4409,
+            "MAPE_pct": 18.21
+        },
+        "Random_Forest": {
+            "MAE": 3.8297,
+            "RMSE": 5.1623,
+            "R2": 0.4836,
+            "MAPE_pct": 18.13
+        }
+    },
+    "selected_best_model": {
+        "model_name": "Random_Forest",
+        "selection_criterion": "Lowest Validation RMSE",
+        "test_mae": 3.8297,
+        "test_rmse": 5.1623,
+        "test_r2": 0.4836,
+        "test_mape_pct": 18.13
+    }
+}

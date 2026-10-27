@@ -1,0 +1,13 @@
+month_num,Month_name,seasonal_avg_daily_kwh,cumulative_energy_kwh,seasonal_avg_voltage
+1,January,35.07,4243.5,242.16
+2,February,31.2,3525.23,241.46
+3,March,29.55,3605.31,241.53
+4,April,25.16,2943.36,241.07
+5,May,24.71,3063.88,239.01
+6,June,21.83,2554.47,239.91
+7,July,16.8,2082.66,240.0
+8,August,13.69,1615.3,240.17
+9,September,23.41,2715.03,240.45
+10,October,27.28,3383.24,240.78
+11,November,30.96,3591.56,241.07
+12,December,35.64,3849.12,242.77
