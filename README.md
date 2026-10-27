@@ -1,11 +1,32 @@
 # Smart Energy Consumption Analytics & Forecasting
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
 [![CI Pipeline](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-4.0%20%7C%20MLlib-orange.svg)](https://spark.apache.org/)
 [![Hadoop](https://img.shields.io/badge/Apache%20Hadoop-3.3%20%7C%20HDFS%20%7C%20MapReduce-yellow.svg)](https://hadoop.apache.org/)
 [![UN SDG 7](https://img.shields.io/badge/UN%20SDG-Goal%207%3A%20Affordable%20%26%20Clean%20Energy-green.svg)](https://sdgs.un.org/goals/goal7)
+
+---
+
+## 🌐 Interactive Streamlit Web Application
+
+This project includes a production-ready, interactive web dashboard designed for zero-config deployment on **Streamlit Community Cloud**:
+
+- **Local Execution:**
+  ```powershell
+  streamlit run app.py
+  ```
+- **Streamlit Community Cloud Deployment:**
+  1. Open [share.streamlit.io](https://share.streamlit.io) and authenticate with your GitHub account (`Praveensagar07`).
+  2. Click **"New app"** and configure:
+     - **Repository:** `Praveensagar07/Smart-Energy-Analytics-Forecasting`
+     - **Branch:** `main`
+     - **Main file path:** `app.py`
+     - **App URL:** `smart-energy-analytics-forecasting.streamlit.app` (or custom slug)
+  3. Click **"Deploy!"**
+- **Live Cloud Dashboard URL:** [Deploy on Streamlit Community Cloud](https://share.streamlit.io) *(Once deployed via your GitHub account, the verified live URL will be active at: `https://smart-energy-analytics-forecasting.streamlit.app`)*
 
 ---
 
