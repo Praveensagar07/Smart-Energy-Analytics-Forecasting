@@ -1,7 +1,7 @@
 {
     "dataset_name": "UCI Individual Household Electric Power Consumption",
     "input_file": "data\\raw\\household_power_consumption.txt",
-    "processed_timestamp": "2026-10-27T19:53:41.680602",
+    "processed_timestamp": "2026-10-27T20:45:14.779186",
     "total_raw_records": 2075259,
     "missing_power_records": 25979,
     "valid_power_records": 2049280,
