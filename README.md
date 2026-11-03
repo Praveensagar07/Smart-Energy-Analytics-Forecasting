@@ -1,6 +1,6 @@
 # Smart Energy Consumption Analytics & Forecasting
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://smart-energy-analytics-forecast.streamlit.app/)
 [![CI Pipeline](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting/actions/workflows/ci.yml/badge.svg)](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting/actions)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
@@ -12,21 +12,18 @@
 
 ## 🌐 Interactive Streamlit Web Application
 
-This project includes a production-ready, interactive web dashboard designed for zero-config deployment on **Streamlit Community Cloud**:
+This project includes a production-ready, interactive web dashboard deployed on **Streamlit Community Cloud**:
 
+- **Live Cloud Dashboard URL:** [https://smart-energy-analytics-forecast.streamlit.app/](https://smart-energy-analytics-forecast.streamlit.app/)
 - **Local Execution:**
   ```powershell
   streamlit run app.py
   ```
-- **Streamlit Community Cloud Deployment:**
-  1. Open [share.streamlit.io](https://share.streamlit.io) and authenticate with your GitHub account (`Praveensagar07`).
-  2. Click **"New app"** and configure:
-     - **Repository:** `Praveensagar07/Smart-Energy-Analytics-Forecasting`
-     - **Branch:** `main`
-     - **Main file path:** `app.py`
-     - **App URL:** `smart-energy-analytics-forecasting.streamlit.app` (or custom slug)
-  3. Click **"Deploy!"**
-- **Live Cloud Dashboard URL:** [Deploy on Streamlit Community Cloud](https://share.streamlit.io) *(Once deployed via your GitHub account, the verified live URL will be active at: `https://smart-energy-analytics-forecasting.streamlit.app`)*
+- **Streamlit Community Cloud Configuration:**
+  - **Repository:** `Praveensagar07/Smart-Energy-Analytics-Forecasting`
+  - **Branch:** `main`
+  - **Main file path:** `app.py`
+  - **Live URL:** [https://smart-energy-analytics-forecast.streamlit.app/](https://smart-energy-analytics-forecast.streamlit.app/)
 
 ---
 
@@ -39,6 +36,7 @@ This project includes a production-ready, interactive web dashboard designed for
 
 - **Subject**: Big Data Analytics (BDA)
 - **Target Sustainable Development Goal**: **UN SDG 7 — Affordable and Clean Energy (Level L3)**
+- **Live Deployed Dashboard**: [https://smart-energy-analytics-forecast.streamlit.app/](https://smart-energy-analytics-forecast.streamlit.app/)
 - **GitHub Repository**: [https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting)
 
 ---

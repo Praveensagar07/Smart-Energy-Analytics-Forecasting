@@ -628,6 +628,7 @@ elif nav_choice == "📚 Academic & Big Data Architecture":
           - **Naveen.S** — Register No: `814724104104`
         - **Target SDG:** **UN SDG 7 — Affordable and Clean Energy (Level 3)**
         - **Target GitHub Repository:** [`Praveensagar07/Smart-Energy-Analytics-Forecasting`](https://github.com/Praveensagar07/Smart-Energy-Analytics-Forecasting)
+        - **Live Deployed Application:** [`smart-energy-analytics-forecast.streamlit.app`](https://smart-energy-analytics-forecast.streamlit.app/)
         """)
 
         st.markdown("### **Verified Implementation Matrix**")
